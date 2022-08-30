@@ -1,0 +1,19 @@
+.pink {
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color: palevioletred;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#one {
+    color: blue;
+    font-size: 36px;
+}
+
+#two {
+    background-color: limegreen;
+    font-size: 24px;
+    font-weight: bold;
+}
