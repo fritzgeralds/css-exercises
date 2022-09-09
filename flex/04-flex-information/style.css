@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;  /* I didn't condense this into the body selector */
 }
 
 img {
@@ -10,7 +11,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
+  text-align: center;  /* Should have condensed this into the body selector */
+  margin-bottom: 32px;  /* I missed this */
 }
 
 .badge-container {
@@ -20,12 +22,12 @@ img {
   gap: 50px;
 }
 
-.badge {
+.badge {  /* This could have been simplified by setting the width and height and text stretches without it */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center;  /* Should have condensed this into the body selector */
 }
 
 /* do not edit this footer */
